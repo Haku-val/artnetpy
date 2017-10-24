@@ -1,5 +1,3 @@
-# reference: https://stackoverflow.com/questions/23729886/udp-sockets-in-d-programming-language
-
 import sys, socket, math, time
 from ctypes import *
 
