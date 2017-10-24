@@ -39,8 +39,8 @@ class Artnet:
             else:
                 break
         self.S.sendto(self.artnet,(IP,Artnet.ArtNetDMXOut.PORT))
-            
-def main():
+
+if __name__ == '__main__':
     artnet = Artnet()
     data = [0] * 512
     for i in range(150):
@@ -48,7 +48,4 @@ def main():
         data[i*3+1] = 0
         data[i*3+2] = 0
     artnet.sendDMX(data,"133.15.42.111",5)
-
-if __name__ == '__main__':
-    main()
 
