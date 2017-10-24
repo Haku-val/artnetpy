@@ -26,8 +26,7 @@ Reference source is here ( https://stackoverflow.com/questions/23729886/udp-sock
 
 ## How to use
 In the meantime, the sample in the main function in the code is described.  
-Put "artnetpy.py" in the same directory.  
-then  
+Put "artnetpy.py" in the same directory. Then,  
 ```
 from artnetpy import Artnet
 ```  
@@ -40,4 +39,4 @@ The arguments of the sendDMX method are as follows.
 
 
 
-Rinally, the explanation in English was translated by Google translation!! Sory!!
+Finally, the explanation in English was translated by Google translation!! Sory!!
