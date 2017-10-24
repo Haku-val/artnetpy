@@ -1,6 +1,6 @@
 ## Python用Artnetモジュール
-PythonでArtnetパケットを送れるよう作成したモジュール  
-参考元はここ：https://stackoverflow.com/questions/23729886/udp-sockets-in-d-programming-language 
+PythonでArtnetパケットを送れるよう作成したモジュール\\
+参考元はここ：https://stackoverflow.com/questions/23729886/udp-sockets-in-d-programming-language  
 (正直，まだPython経験が乏しいので自信・保証はありません！！)
 
 ## 使い方
