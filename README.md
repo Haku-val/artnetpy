@@ -10,7 +10,7 @@ artnetpy.pyを同じディレクトリに入れて，
 from artnetpy import Artnet
 ```  
 でインポートします．  
-sendDMXメソッドの引数は
+sendメソッドの引数は
 
 1. DMX信号の配列
 2. 送り先のIPアドレス
@@ -32,7 +32,7 @@ from artnetpy import Artnet
 ```  
 In this way, import it.
 
-The arguments of the sendDMX method are as follows.
+The arguments of the send method are as follows.
 1. Array of DMX signals
 2. Destination IP address(IP address of DMX controller)
 3. Port number of the controller whose signal you want to output
