@@ -28,8 +28,8 @@ class Artnet:
         for i in range(512):
             self.artnet.payload[i] = 0
 
-    def sendDMX(self,data,IP,port):
-        # sendDMX(送るデータ,IPアドレス,ポート番号)
+    def send(self,data,IP,port):
+        # send(送るデータ,IPアドレス,ポート番号)
         self.artnet.universe = port
         for i in range(512):
             if(i < len(data)):
@@ -45,5 +45,5 @@ if __name__ == '__main__':
         data[i*3+0] = 0
         data[i*3+1] = 0
         data[i*3+2] = 0
-    artnet.sendDMX(data,"133.15.42.111",5)
+    artnet.send(data,"133.15.42.111",5)
 
